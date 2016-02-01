@@ -35,7 +35,7 @@ namespace DebugDemo.Library.Collatz
 
         private int ComputeCycleLength(int i)
         {
-            long tempNum = i;
+            var tempNum = i;
             var cycles = 1;
             while (tempNum > 1)
             {
